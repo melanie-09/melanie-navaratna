@@ -24,7 +24,7 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
+  display: block;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -33,6 +33,11 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: black;
+}
+
+h2,h3 {
+  color: black;
 }
 
 button {
@@ -78,6 +83,9 @@ body {
 nav {
   background-color: #333;
   padding: 10px 20px;
+  position: sticky;
+  width: 100%;
+  min-height: 60px
 }
 
 nav ul {
@@ -89,7 +97,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0;
+  margin-right: 20px;
 }
 
 nav a {

@@ -23,7 +23,6 @@ function App() {
           </Routes>
         </div>
       </Router>
-      <p>This is the home page.</p>
     </>
     
 
